@@ -1,3 +1,3 @@
 interface BitcoinDA {
-  getBitcoinPrice(): number;
+  getBitcoinPrice(): Promise<number>;
 }
